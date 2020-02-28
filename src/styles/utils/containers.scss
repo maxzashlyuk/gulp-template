@@ -1,0 +1,28 @@
+@import 'variables';
+
+.container {
+    margin: 0 auto;
+    padding: 0 $mediaGutter;
+    min-width: $mediaWidthMobile;
+}
+
+@media (min-width: $mediaWidthTablet) {
+    .container {
+        padding: 0 $mediaGutter;
+        min-width: $mediaWidthTablet; 
+    } 
+}
+
+@media (min-width: $mediaWidthTabletHorizontal) {
+    .container {
+        padding: 0 $mediaGutter;
+        width: $mediaWidthTabletHorizontal; 
+    } 
+}
+
+@media (min-width: $mediaWidthLaptop) {
+    .container {
+        padding: 0 $mediaGutter;
+        width: $mediaWidthLaptop;
+    } 
+}
